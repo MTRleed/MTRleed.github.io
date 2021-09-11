@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="https://mtrleed.github.io/atom.xml" rel="self"/>
+  <link href="https://www.mtrleed.com/atom.xml" rel="self"/>
   
-  <link href="https://mtrleed.github.io/"/>
+  <link href="https://www.mtrleed.com/"/>
   <updated>2021-09-08T15:07:40.247Z</updated>
-  <id>https://mtrleed.github.io/</id>
+  <id>https://www.mtrleed.com/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://mtrleed.github.io/2021/09/08/hello-world/"/>
-    <id>https://mtrleed.github.io/2021/09/08/hello-world/</id>
+    <link href="https://www.mtrleed.com/2021/09/08/hello-world/"/>
+    <id>https://www.mtrleed.com/2021/09/08/hello-world/</id>
     <published>2021-09-08T15:07:40.247Z</published>
     <updated>2021-09-08T15:07:40.247Z</updated>
     
