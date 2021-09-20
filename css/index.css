@@ -3387,12 +3387,12 @@ blockquote footer cite:before {
 }
 #footer-wrap {
   position: relative;
-  padding: 2rem 1rem;
-  color: var(--light-grey);
+  padding: 3rem 2rem;
+  color: var(--dark-black);
   text-align: center;
 }
 #footer-wrap a {
-  color: var(--light-grey);
+  color: var(--dark-black);
 }
 #footer-wrap a:hover {
   text-decoration: underline;
