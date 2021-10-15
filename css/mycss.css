@@ -1,6 +1,6 @@
 /* 文章页背景 */
 .layout_post>#post {
-    background: rgba(255,255,255,.5);
+    background: rgba(255,255,255,.1);
 }
 
 /* 所有页面背景 */
