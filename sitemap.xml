@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.mtrleed.com/post/yyy.html</loc>
+    <loc>https://www.mtrleed.com/yyy.html</loc>
     
     <lastmod>2021-10-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/categories/index.html</loc>
+    <loc>https://www.mtrleed.com/categories/index.html</loc>
     
     <lastmod>2021-10-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/tags/index.html</loc>
+    <loc>https://www.mtrleed.com/tags/index.html</loc>
     
     <lastmod>2021-10-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/about/index.html</loc>
+    <loc>https://www.mtrleed.com/about/index.html</loc>
     
     <lastmod>2021-10-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/link/index.html</loc>
+    <loc>https://www.mtrleed.com/link/index.html</loc>
     
     <lastmod>2021-10-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/messageboard/index.html</loc>
+    <loc>https://www.mtrleed.com/messageboard/index.html</loc>
     
     <lastmod>2021-10-15</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/index.html</loc>
+    <loc>https://www.mtrleed.com/index.html</loc>
     
     <lastmod>2021-10-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/post/index.html</loc>
+    <loc>https://www.mtrleed.com/index.html</loc>
     
     <lastmod>2021-10-12</lastmod>
     
@@ -59,7 +59,7 @@
   
 
   <url>
-    <loc>https://www.mtrleed.com/post</loc>
+    <loc>https://www.mtrleed.com/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -67,7 +67,7 @@
 
   
   <url>
-    <loc>https://www.mtrleed.com/post/tags/%E6%9D%82%E8%B0%88/</loc>
+    <loc>https://www.mtrleed.com/tags/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2021-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
