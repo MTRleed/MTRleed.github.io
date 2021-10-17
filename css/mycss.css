@@ -35,7 +35,7 @@
     border-color: #fff;
     background-color: #e58a8a;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -72,9 +72,19 @@
 
 /* 自定义字体 */
 @font-face {
-    font-family: 'sleek';
-    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+    font-family: 'tzy';
+    /* 字体名自定义即可 */
+    src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2@@@###');
+    /* 字体文件路径 */
+    font-display: swap;
 }
+
+body,
+.gitcalendar {
+    font-family: tzy !important;
+    font-size: 16px;
+}
+
 
 /* 所有页面背景 */
 #web_bg {

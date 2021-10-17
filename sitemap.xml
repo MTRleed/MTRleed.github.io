@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.mtrleed.com/post/helloworld.html</loc>
+    <loc>https://www.mtrleed.com/tags/index.html</loc>
+    
+    <lastmod>2021-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.mtrleed.com/link/index.html</loc>
+    
+    <lastmod>2021-10-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.mtrleed.com/messageboard/index.html</loc>
     
     <lastmod>2021-10-16</lastmod>
     
@@ -16,30 +30,16 @@
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/tags/index.html</loc>
-    
-    <lastmod>2021-10-15</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.mtrleed.com/about/index.html</loc>
     
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mtrleed.com/link/index.html</loc>
+    <loc>https://www.mtrleed.com/post/helloworld.html</loc>
     
-    <lastmod>2021-10-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.mtrleed.com/messageboard/index.html</loc>
-    
-    <lastmod>2021-10-15</lastmod>
+    <lastmod>2021-10-16</lastmod>
     
   </url>
   
@@ -60,7 +60,7 @@
 
   <url>
     <loc>https://www.mtrleed.com/</loc>
-    <lastmod>2021-10-16</lastmod>
+    <lastmod>2021-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,7 +68,7 @@
   
   <url>
     <loc>https://www.mtrleed.com/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2021-10-16</lastmod>
+    <lastmod>2021-10-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
