@@ -70,19 +70,25 @@
 }
 
 
+
+
+
+
 /* 自定义字体 */
 @font-face {
-    font-family: 'tzy';
+    font-family: source-han-serif-sc, serif;
     /* 字体名自定义即可 */
-    src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2@@@###');
+    /*src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2@@@###');*/
     /* 字体文件路径 */
     font-display: swap;
 }
 
 body,
 .gitcalendar {
-    font-family: tzy !important;
+    font-family: source-han-serif-sc, serif !important;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
 }
 
 
