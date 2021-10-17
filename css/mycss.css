@@ -1,14 +1,14 @@
 /* 首页 卡片文章背景透明 */
 #recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{
     /* 白色透明度 */
-    background: rgba(255,255,255,.4);
+    background: rgba(255,255,255,.3);
 }
 
 
 /* 侧边栏设置 */
 #aside-content>.card-widget,.sticky_layout>.card-widget{
     /* 白色透明度 */
-    background: rgba(255,255,255,.4) !important;
+    background: rgba(255,255,255,.3) !important;
 }
 
 /*页脚字体颜色*/
@@ -69,26 +69,25 @@
     padding: 0px;
 }
 
-
 /* 自定义字体 */
 @font-face {
-    font-family: 'tzy';
+   font-family: source-han-serif-sc, serif;
     /* 字体名自定义即可 */
-    src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2');
+    /*src: url('https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2&&&');*/
     /* 字体文件路径 */
     font-display: swap;
-    font-style: normal;
-    font-weight: 200;
 }
 
 body,
 .gitcalendar {
-    font-family: tzy !important;
-    font-size: 16px;
+    font-family: source-han-serif-sc, serif !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
 }
 
 
-/* 所有页面背景 */
+/* 所有页面背景
 #web_bg {
   background: -webkit-linear-gradient(
     0deg,
@@ -144,4 +143,4 @@ body,
     rgba(16, 152, 173, 0.1) 72%,
     rgba(7, 179, 155, 0.1) 86%,
     rgba(109, 186, 130, 0.1) 100%
-  );
+  );*/
