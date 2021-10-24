@@ -6,7 +6,7 @@
   <link href="https://www.mtrleed.com/atom.xml" rel="self"/>
   
   <link href="https://www.mtrleed.com/"/>
-  <updated>2021-10-17T12:44:05.467Z</updated>
+  <updated>2021-10-24T12:48:37.741Z</updated>
   <id>https://www.mtrleed.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.mtrleed.com/post/123/"/>
     <id>https://www.mtrleed.com/post/123/</id>
     <published>2021-10-17T12:12:44.000Z</published>
-    <updated>2021-10-17T12:44:05.467Z</updated>
+    <updated>2021-10-24T12:48:37.741Z</updated>
     
     <content type="html"><![CDATA[<p>hhhhhh</p>]]></content>
     
@@ -34,8 +34,12 @@
     
     
     
+    <category term="初期" scheme="https://www.mtrleed.com/categories/%E5%88%9D%E6%9C%9F/"/>
     
-    <category term="乱写" scheme="https://www.mtrleed.com/tags/%E4%B9%B1%E5%86%99/"/>
+    
+    <category term="测试" scheme="https://www.mtrleed.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="测试2" scheme="https://www.mtrleed.com/tags/%E6%B5%8B%E8%AF%952/"/>
     
   </entry>
   
