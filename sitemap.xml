@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.mtrleed.com/post/helloworld/</loc>
+    
+    <lastmod>2021-11-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.mtrleed.com/messageboard/index.html</loc>
     
     <lastmod>2021-11-02</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://www.mtrleed.com/link/index.html</loc>
     
     <lastmod>2021-10-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.mtrleed.com/post/helloworld/</loc>
-    
-    <lastmod>2021-10-16</lastmod>
     
   </url>
   
