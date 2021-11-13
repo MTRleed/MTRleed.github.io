@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.mtrleed.com/about/index.html</loc>
+    
+    <lastmod>2021-11-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.mtrleed.com/messageboard/index.html</loc>
+    
+    <lastmod>2021-11-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.mtrleed.com/post/2/</loc>
     
     <lastmod>2021-11-13</lastmod>
@@ -12,20 +26,6 @@
     <loc>https://www.mtrleed.com/post/1/</loc>
     
     <lastmod>2021-11-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.mtrleed.com/messageboard/index.html</loc>
-    
-    <lastmod>2021-11-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.mtrleed.com/about/index.html</loc>
-    
-    <lastmod>2021-11-02</lastmod>
     
   </url>
   
