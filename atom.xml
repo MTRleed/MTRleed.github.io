@@ -3,11 +3,11 @@
   <title>MTRleed</title>
   
   <subtitle>吾将上下而求索</subtitle>
-  <link href="https://www.mtrleed.com/atom.xml" rel="self"/>
+  <link href="https://www.mtrleed.top/atom.xml" rel="self"/>
   
-  <link href="https://www.mtrleed.com/"/>
+  <link href="https://www.mtrleed.top/"/>
   <updated>2021-11-13T12:55:20.039Z</updated>
-  <id>https://www.mtrleed.com/</id>
+  <id>https://www.mtrleed.top/</id>
   
   <author>
     <name>MTRleed</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Web练习题</title>
-    <link href="https://www.mtrleed.com/post/2/"/>
-    <id>https://www.mtrleed.com/post/2/</id>
+    <link href="https://www.mtrleed.top/post/2/"/>
+    <id>https://www.mtrleed.top/post/2/</id>
     <published>2021-11-12T16:00:00.000Z</published>
     <updated>2021-11-13T12:55:20.039Z</updated>
     
@@ -34,17 +34,17 @@
     
     
     
-    <category term="CTF" scheme="https://www.mtrleed.com/categories/CTF/"/>
+    <category term="CTF" scheme="https://www.mtrleed.top/categories/CTF/"/>
     
     
-    <category term="Web" scheme="https://www.mtrleed.com/tags/Web/"/>
+    <category term="Web" scheme="https://www.mtrleed.top/tags/Web/"/>
     
   </entry>
   
   <entry>
     <title>对某公司渗透实测</title>
-    <link href="https://www.mtrleed.com/post/1/"/>
-    <id>https://www.mtrleed.com/post/1/</id>
+    <link href="https://www.mtrleed.top/post/1/"/>
+    <id>https://www.mtrleed.top/post/1/</id>
     <published>2021-11-07T09:32:38.863Z</published>
     <updated>2022-07-23T12:45:24.652Z</updated>
     
@@ -58,10 +58,10 @@
     
     
     
-    <category term="渗透" scheme="https://www.mtrleed.com/categories/%E6%B8%97%E9%80%8F/"/>
+    <category term="渗透" scheme="https://www.mtrleed.top/categories/%E6%B8%97%E9%80%8F/"/>
     
     
-    <category term="注入" scheme="https://www.mtrleed.com/tags/%E6%B3%A8%E5%85%A5/"/>
+    <category term="注入" scheme="https://www.mtrleed.top/tags/%E6%B3%A8%E5%85%A5/"/>
     
   </entry>
   
