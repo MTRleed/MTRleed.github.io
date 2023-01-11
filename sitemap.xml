@@ -74,6 +74,13 @@
 
   
   <url>
+    <loc>https://www.mtrleed.top/tags/Linux%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2023-01-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.mtrleed.top/tags/nessus/</loc>
     <lastmod>2023-01-11</lastmod>
     <changefreq>daily</changefreq>
@@ -94,14 +101,14 @@
     <priority>0.6</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://www.mtrleed.top/tags/Linux%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>https://www.mtrleed.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2023-01-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
-  
-
   
   <url>
     <loc>https://www.mtrleed.top/categories/%E9%9A%8F%E7%AC%94/</loc>
@@ -119,13 +126,6 @@
   
   <url>
     <loc>https://www.mtrleed.top/categories/%E6%B8%97%E9%80%8F/</loc>
-    <lastmod>2023-01-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mtrleed.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2023-01-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
