@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Fastjson漏洞学习</title>
+      <link href="/post/8/"/>
+      <url>/post/8/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今天在配置实验环境的时候一不小心卸载了所有的JDK，心想应该没什么，想要挨个重新安装就好了。但是就在安装JDK8的时候，.exe文件死活不运行，在尝试了多种方法无果后，看到了一个相似的案例，随后对应着自己所出现的问题一步一步重新将JDK8装了回来。</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>到官网下载自己所需的JDK安装文件 <a href="https://www.oracle.com/java/technologies/downloads/archive/">oracle官网</a><br><img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk.png"></p><p>​      </p><p>使用7z提取出文件<br><img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk1.png"></p><p>​      </p><p>进入提取出来的文件，找到jdk-8u361-windows-x64.rsrc\1033\JAVA_CAB10下的这个文件，并提取文件<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk2.png"></p><p>随后就会提取出tools压缩包，我们解压一下<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk3.png"></p><p>​      </p><p>解压后是这样的，和jdk基本一样了<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk4.png"></p><p>​        </p><p>然后再将这些文件移动到想要的位置并在地址栏打开cmd<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk5.png"></p><p>​      </p><p>在cmd中运行以下命令，成功运行结束后就算安装成功</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for /r %x in (*.pack) do .\bin\unpack200 -r &quot;%x&quot; &quot;%~dx%~px%~nx.jar&quot;</span><br></pre></td></tr></table></figure><p>​        </p><p>JDK<a href="https://blog.csdn.net/lcszz0302/article/details/119177184?spm=1001.2014.3001.5501">修改版本链接文章</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux随记</title>
       <link href="/post/4/"/>
       <url>/post/4/</url>
@@ -42,12 +61,6 @@
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> nessus </tag>
-            
-        </tags>
       
     </entry>
     

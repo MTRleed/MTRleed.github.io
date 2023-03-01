@@ -6,7 +6,7 @@
   <link href="https://www.mtrleed.top/atom.xml" rel="self"/>
   
   <link href="https://www.mtrleed.top/"/>
-  <updated>2023-01-15T12:32:03.516Z</updated>
+  <updated>2023-03-01T12:48:24.735Z</updated>
   <id>https://www.mtrleed.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fastjson漏洞学习</title>
+    <link href="https://www.mtrleed.top/post/8/"/>
+    <id>https://www.mtrleed.top/post/8/</id>
+    <published>2023-02-26T16:00:00.000Z</published>
+    <updated>2023-03-01T12:48:24.735Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今天在配置实验环境的时候一不小心卸载了所有的JDK，心想应该没什么，想要挨个重新安装就好了。但是就在安装JDK8的时候，.exe文件死活不运行，在尝试了多种方法无果后，看到了一个相似的案例，随后对应着自己所出现的问题一步一步重新将JDK8装了回来。</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>到官网下载自己所需的JDK安装文件 <a href="https://www.oracle.com/java/technologies/downloads/archive/">oracle官网</a><br><img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk.png"></p><p>​      </p><p>使用7z提取出文件<br><img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk1.png"></p><p>​      </p><p>进入提取出来的文件，找到jdk-8u361-windows-x64.rsrc\1033\JAVA_CAB10下的这个文件，并提取文件<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk2.png"></p><p>随后就会提取出tools压缩包，我们解压一下<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk3.png"></p><p>​      </p><p>解压后是这样的，和jdk基本一样了<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk4.png"></p><p>​        </p><p>然后再将这些文件移动到想要的位置并在地址栏打开cmd<img src="https://cdn.jsdelivr.net/gh/MTRleed/PicGo@master/2023/jdk5.png"></p><p>​      </p><p>在cmd中运行以下命令，成功运行结束后就算安装成功</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for /r %x in (*.pack) do .\bin\unpack200 -r &quot;%x&quot; &quot;%~dx%~px%~nx.jar&quot;</span><br></pre></td></tr></table></figure><p>​        </p><p>JDK<a href="https://blog.csdn.net/lcszz0302/article/details/119177184?spm=1001.2014.3001.5501">修改版本链接文章</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;今天在配置实验环境的时候一不小心卸载了所有的JDK，心想应该没什么，想要挨个重新安装就好了。但是就在安装JDK8的时候，.exe文件死活不运</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.mtrleed.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Linux随记</title>
@@ -46,7 +68,7 @@
     <link href="https://www.mtrleed.top/post/3/"/>
     <id>https://www.mtrleed.top/post/3/</id>
     <published>2022-11-07T16:00:00.000Z</published>
-    <updated>2023-01-12T07:13:10.350Z</updated>
+    <updated>2023-03-01T12:48:13.079Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近有需要在机器用到漏扫，发现nessus还不错，索性在虚拟机上安装了。安装过程有些要注意的地方，诶我又索性做个笔记。话不多说开干 🛠</p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h3 id="下载安装包"><a href="#下载安装包" class="headerlink" title="下载安装包"></a>下载安装包</h3><p>因为是国外服务器所以建议科学上网。到官网寻找适合自己系统版本的nessus发行版，地址在这 <a href="https://www.tenable.com/downloads/nessus%E3%80%82%E8%BF%99%E6%98%AF%E6%88%91%E9%80%89%E6%8B%A9%E7%9A%84%E7%89%88%E6%9C%AC">https://www.tenable.com/downloads/nessus。这是我选择的版本</a><br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus1.png"></p><h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p>将下载好的安装包放到自己想放的地方，我选择 opt 目录。在此目录下启动终端，执行命令安装该软件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dpkg -i Nessus-10.4.1-debian9_amd64.deb</span><br></pre></td></tr></table></figure><p><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus2.png">    </p><p>​       </p><p>安装好后启动nessus试试，使用命令 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">start nessusd.service 或 service nessusd start</span><br></pre></td></tr></table></figure><p>​       </p><p>随后访问，nessus走 SSL 协议所以 https ,默认端口8834，浏览器会提示有安全风险，点击“高级”，再点击“接受风险并继续” 直接无视。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://localhost:8834/</span><br></pre></td></tr></table></figure><p>选择所示版本<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus3.png"></p><p>​        </p><p>这里选择 .sc<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus4.png"></p><p>​        </p><p>创建账号密码（随意)<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus5.png"></p><p>​        </p><p>之后等待一会进入界面<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus6.png"></p><p>现在还不能使用，下面进行 PJ</p><p>​        </p><p>我们需要用到 nessus 的一个叫挑战码的东西，执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/nessus/sbin/nessuscli fetch --challenge </span><br></pre></td></tr></table></figure><p>就是这个<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus7.png"></p><p>​        </p><p>下一步到官网填邮箱拿激活码，地址在这 <a href="https://www.tenable.com/products/nessus/nessus-essentials">https://www.tenable.com/products/nessus/nessus-essentials</a><br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus8.png"></p><p>​        </p><p>随后访问网站 <a href="https://plugins.nessus.org/v2/offline.php">https://plugins.nessus.org/v2/offline.php</a><br>在其中输入刚才获得的挑战码和激活码，点击 subimt，获取 license 和 插件包<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus9.png"></p><p>我们要进行离线注册，先停止 nessus 服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">stop nessusd.service 或 service nessusd stop</span><br></pre></td></tr></table></figure><p>​         </p><p>然后开始注册</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/nessus/sbin/nessuscli fetch --register-offline /许可文件nessus.license路径/nessus.license</span><br></pre></td></tr></table></figure><p>​       </p><p>离线加载我们的插件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/nessus/sbin/nessuscli update /插件包all-2.0.tar.gz文件路径/all-2.0.tar.gz</span><br></pre></td></tr></table></figure><p>​        </p><p>查看插件的信息</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /opt/nessus/lib/nessus/plugins/plugin_feed_info.inc</span><br></pre></td></tr></table></figure><p>PLUGIN_SET 的数字后面要用到</p><p>​        </p><p>修改配置文件的内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /opt/nessus/lib/nessus/plugins/plugin_feed_info.inc</span><br></pre></td></tr></table></figure><p>修改里面的内容为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PLUGIN_SET = &quot;XXXXXX&quot;; </span><br><span class="line">PLUGIN_FEED = &quot;ProfessionalFeed (Direct)&quot;; </span><br><span class="line">PLUGIN_FEED_TRANSPORT = &quot;Tenable Network Security Lightning&quot;;</span><br><span class="line"></span><br><span class="line">PLUGIN_SET = &quot;XXXXXX&quot;;填上刚刚查询到的信息</span><br></pre></td></tr></table></figure><p><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus10.png">    </p><p>​        </p><p>再编辑另一个配置文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /opt/nessus/var/nessus/plugin_feed_info.inc </span><br></pre></td></tr></table></figure><p>内容和上述文件内容一致</p><p>​        </p><p>将这份文件拷贝到同目录的 plugins 目录下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /opt/nessus/var/nessus/   </span><br><span class="line">cp plugin_feed_info.inc plugins</span><br></pre></td></tr></table></figure><p>经过测试，虚拟机重启后，Nessus服务每次重启后，都会重置 plugin_feed_info.inc，这将会使 nessus/plugins 目录下所有的插件都被删除，无法扫描。因此我们将此文件设为只读文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chattr +i /opt/nessus/var/nessus/plugin_feed_info.inc</span><br></pre></td></tr></table></figure><p>​         </p><p>重新启动 nessus 服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">start nessusd.service 或 service nessusd start</span><br></pre></td></tr></table></figure><p>​         </p><p>访问</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">htps://localhost:8834/</span><br></pre></td></tr></table></figure><p>会再次出现初始化的页面，这是Nessus在编译和安装插件，这个过程耗时少则几分钟多则两三天，耗子尾汁吧</p><p>​        </p><p>这样就可以使用了，不再限制16个 ip<br><img src="https://gcore.jsdelivr.net/gh/MTRleed/PicGo@master/file/nessus11.png"></p><p>​        </p><p>​                                                                 <strong>好了，最后提醒要做守法好公民哦 ！</strong></p>]]></content>
     
@@ -60,8 +82,6 @@
     
     <category term="随笔" scheme="https://www.mtrleed.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    
-    <category term="nessus" scheme="https://www.mtrleed.top/tags/nessus/"/>
     
   </entry>
   
