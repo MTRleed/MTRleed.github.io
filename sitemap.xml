@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.mtrleed.top/post/10/</loc>
+    
+    <lastmod>2023-03-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.mtrleed.top/post/9/</loc>
     
     <lastmod>2023-03-02</lastmod>
@@ -146,6 +153,13 @@
   </url>
   
   <url>
+    <loc>https://www.mtrleed.top/categories/java/</loc>
+    <lastmod>2023-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.mtrleed.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2023-03-02</lastmod>
     <changefreq>daily</changefreq>
@@ -161,6 +175,13 @@
   
   <url>
     <loc>https://www.mtrleed.top/categories/SQL%E6%B3%A8%E5%85%A5/</loc>
+    <lastmod>2023-03-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.mtrleed.top/categories/java/%E6%B3%A8%E5%85%A5/</loc>
     <lastmod>2023-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
